@@ -24,7 +24,7 @@ if not uploaded_files:
     ### \U0001F527 What You Can Do:
     - \U0001F4C4 **Upload** one or more CSV files, or a ZIP file containing multiple CSVs  
     - \U0001F50E **Search through hundreds of files** simultaneously.
-    - \U0001F4BD **Great for large datasets** handling right up to multiple GB+ files  
+    - \U0001F4BD **Great for large datasets** handling right up to size 200MB files  
     - \U0001F4CB **Apply light to heavy filters** up to the first 10 columns  
     - \u2B07 **Download results instantly** once matched
     - \U0001F4BE **ZIP and CSV** can be uploaded together.
