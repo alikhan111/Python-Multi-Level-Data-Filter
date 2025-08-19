@@ -219,4 +219,4 @@ if all_files:
         else:
             st.warning("⚠️ No matches found.")
     else:
-        st.info("ℹ️ Please enter at least one filter value to begin filtering.")
+        st.info("🛠️ "Set your filters to refine the data.")
