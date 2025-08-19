@@ -17,10 +17,10 @@ uploaded_files = st.file_uploader(
     accept_multiple_files=True,
     label_visibility="collapsed"
 )
-st.info("ℹ️ Upload CSV or ZIP files to begin.")
 
 # --- Instructions if no files uploaded ---
 if not uploaded_files:
+    st.info("ℹ️ Upload CSV or ZIP files to begin.")
     st.markdown("""
     ### \U0001F527 What You Can Do:
     - \U0001F4C4 **Upload** one or more CSV files, or a ZIP file containing multiple CSVs  
