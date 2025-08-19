@@ -17,6 +17,7 @@ uploaded_files = st.file_uploader(
     accept_multiple_files=True,
     label_visibility="collapsed"
 )
+st.info("ℹ️ Upload CSV or ZIP files to begin.")
 
 # --- Instructions if no files uploaded ---
 if not uploaded_files:
@@ -219,6 +220,3 @@ if all_files:
             st.warning("⚠️ No matches found.")
     else:
         st.info("ℹ️ Please enter at least one filter value to begin filtering.")
-
-else:
-    st.info("ℹ️ Upload CSV or ZIP files to begin.")
