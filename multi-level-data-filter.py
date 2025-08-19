@@ -7,7 +7,7 @@ import io
 import re
 
 st.set_page_config(page_title="Multi-File CSV Filter", layout="wide")
-st.title("\U0001F4E6 Multi-File Filter")
+st.title("\U0001F4E6 Multi-File Filter - Open Source")
 
 # --- Upload Section ---
 st.markdown("### \U0001F4C2 Upload Your Files")
