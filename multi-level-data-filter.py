@@ -42,7 +42,7 @@ if not uploaded_files:
     - \U0001F4C4 Individual CSVs  
     - \U0001F503 With or without headers
    
-    ### \U0001F525 Additional Information:
+    ### \U0001F6E1 Additional Information:
     - \U0001F9F2 Pro version go to TextDigit.com      
     - \U0001F680 Bespoke version contact: Ali Khan  
     - \U0001F4E7 alikhan111@gmail.com  
