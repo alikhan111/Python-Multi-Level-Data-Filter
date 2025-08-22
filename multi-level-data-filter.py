@@ -15,7 +15,7 @@ with header_cols[1]:
     st.title("Simple Solution For Complex Data!")
 
 # --- Upload Section ---
-st.markdown("### \U0001F4C2 Upload Your Files")
+st.markdown("### \U0001F4C2 Open Source - Upload Your Files")
 uploaded_files = st.file_uploader(
     "Drop ZIP or CSV files here",
     type=["csv", "zip"],
@@ -25,7 +25,7 @@ uploaded_files = st.file_uploader(
 
 # --- Instructions if no files uploaded ---
 if not uploaded_files:
-    st.info("ℹ️ Open Source - Upload CSV or ZIP files to begin.")
+    st.info("ℹ️ Upload CSV or ZIP files to begin.")
     st.markdown("""
     ### \U0001F527 What You Can Do:
     - \U0001F4C4 **Upload** one or more CSV files, or a ZIP file containing multiple CSVs  
