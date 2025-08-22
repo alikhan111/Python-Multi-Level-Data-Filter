@@ -6,8 +6,9 @@ import tempfile
 import io
 import re
 
-st.set_page_config(page_title="Multi-File CSV Filter", layout="wide")
-st.title("\U0001F4E6 Multi-File Filter - Open Source")
+st.set_page_config(page_title="TextDigit", layout="wide")
+st.image("https://khandirect.com/wp-content/uploads/2025/08/new-textedit-logo.png", width=200)
+st.title("\U0001F4E6 Simple Solution For Complex Data Files! - Open Source")
 
 # --- Upload Section ---
 st.markdown("### \U0001F4C2 Upload Your Files")
