@@ -7,7 +7,11 @@ import io
 import re
 
 st.set_page_config(page_title="TextDigit", layout="wide")
-st.image("https://khandirect.com/wp-content/uploads/2025/08/new-textedit-logo.png", width=200)
+
+header_cols = st.columns([3,1])
+with header_cols[0]:
+    st.image("https://khandirect.com/wp-content/uploads/2025/08/new-textedit-logo.png", width=200)
+with header_cols[1]:
 st.title("Simple Solution For Complex Data! - Open Source")
 
 # --- Upload Section ---
