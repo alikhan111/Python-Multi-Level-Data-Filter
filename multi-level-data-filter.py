@@ -16,7 +16,10 @@ with header_cols[1]:
 
 # --- Upload Section ---
 st.markdown("### \U0001F4D6 Open Source - Get The Information You Need! Safe, Reliable & Quick!")
-st.markdown("### \U0001F4C2 Upload Your Files")
+st.markdown("""
+    <hr style="border:none;height:1px;background-color:#eee;margin:0.5rem 0 0.5rem 0"/>
+""", unsafe_allow_html=True)
+
 uploaded_files = st.file_uploader(
     "Drop ZIP or CSV files here",
     type=["csv", "zip"],
