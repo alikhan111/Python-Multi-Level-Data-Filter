@@ -15,7 +15,7 @@ with header_cols[1]:
     st.title("Simple Solution For Complex Data!")
 
 # --- Upload Section ---
-st.markdown("### \U0001F4E6 Open Source - Get The Information You Need! Safe, Reliable & Quick!")
+st.markdown("### \U0001F4D6 Open Source - Get The Information You Need! Safe, Reliable & Quick!")
 st.markdown("### \U0001F4C2 Upload Your Files")
 uploaded_files = st.file_uploader(
     "Drop ZIP or CSV files here",
