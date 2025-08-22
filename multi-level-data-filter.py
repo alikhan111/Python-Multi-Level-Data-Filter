@@ -8,7 +8,7 @@ import re
 
 st.set_page_config(page_title="TextDigit", layout="wide")
 
-header_cols = st.columns([3,1])
+header_cols = st.columns([1,3])
 with header_cols[0]:
     st.image("https://khandirect.com/wp-content/uploads/2025/08/new-textedit-logo.png", width=200)
 with header_cols[1]:
