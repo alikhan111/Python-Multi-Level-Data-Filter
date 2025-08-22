@@ -12,7 +12,7 @@ header_cols = st.columns([3,1])
 with header_cols[0]:
     st.image("https://khandirect.com/wp-content/uploads/2025/08/new-textedit-logo.png", width=200)
 with header_cols[1]:
-st.title("Simple Solution For Complex Data! - Open Source")
+    st.title("Simple Solution For Complex Data! - Open Source")
 
 # --- Upload Section ---
 st.markdown("### \U0001F4C2 Upload Your Files")
