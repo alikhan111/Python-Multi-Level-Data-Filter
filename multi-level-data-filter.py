@@ -232,10 +232,7 @@ if all_files:
 
 
         # Price Packages
-        price_packages()
-        
-def price_packages():
-    """Display the price packages"""
+
 
     st.markdown("""
     <hr style="border:none;height:1px;background-color:#eee;margin:0.5rem 0 0.5rem 0"/>
