@@ -229,3 +229,174 @@ if all_files:
             st.warning("⚠️ No matches found.")
     else:
         st.info("🛠️ Set your filters to refine the data.")
+
+
+        # Price Packages
+        price_packages()
+        
+def price_packages():
+    """Display the price packages"""
+
+    st.markdown("""
+    <hr style="border:none;height:1px;background-color:#eee;margin:0.5rem 0 0.5rem 0"/>
+    """, unsafe_allow_html=True)
+
+    st.markdown('<h2 class="section-title">\U0001F3C6 Pricing Plans</h2>', unsafe_allow_html=True)
+    
+    st.markdown("""
+    <style>
+        .price-card {
+            border: 2px dotted #4b8df8 !important;
+            border-radius: 12px;
+            padding: 25px;
+            height: 100%;
+            transition: all 0.3s ease;
+            position: relative;
+            background: white;
+        }
+        .price-card:hover {
+            box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+            transform: translateY(-5px);
+        }
+        .price-header {
+            color: #1e88e5;
+            margin-bottom: 5px !important;
+            font-size: 24px !important;
+        }
+        .price-amount {
+            font-size: 32px;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+        .price-period {
+            color: #666;
+            font-size: 14px;
+        }
+        .popular-badge {
+            position: absolute;
+            top: -12px;
+            right: -12px;
+            background: #add8e6;
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: bold;
+            transform: rotate(15deg);
+            box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+        }
+        .pricing-button {
+            width: 100%;
+            margin-top: 15px;
+            background: #1e88e5 !important;
+        }
+    </style>
+    """, unsafe_allow_html=True)
+
+    price_cols = st.columns(3)
+    with price_cols[0]:
+        st.markdown("""
+        <div class='price-card'>
+            <h3 class='price-header'>Free</h3>
+            <div class='price-amount'>$0</div>
+            <p><strong>TextDigit Basic</strong></p>
+            <ul class='feature-list'>
+                <li class='feature-item'>Basic filtering</li>
+                <li class='feature-item'>Basic Regex filtering</li>
+                <li class='feature-item'>Multiple File Analysis</li>                
+                <li class='feature-item'>Custom column filtering</li>                
+                <li class='feature-item'>2 column selection</li>                
+                <li class='feature-item'>25MB file strorage capacity</li>
+                <li class='feature-item'>Email support</li>
+            </ul>
+        <a href="https://textdigit.com/free-account"> 
+            <button class='pricing-button'>Get Free</button>
+        </a>
+        </div>
+        """, unsafe_allow_html=True)
+
+    with price_cols[1]:
+        st.markdown("""
+        <div class='price-card'>
+            <h3 class='price-header'>Professional</h3>
+            <div class='price-amount'>$29 per month</div>
+            <p><strong>TextDigit Professional</strong></p>
+            <ul class='feature-list'>
+                <li class='feature-item'>7 day free trial</li>            
+                <li class='feature-item'>Basic plan</li>
+                <li class='feature-item'>Advanced filtering</li>
+                <li class='feature-item'>Advanced Regex filtering</li>
+                <li class='feature-item'>5 column selection</li>  
+                <li class='feature-item'>1GB file strorage capacity</li>
+                <li class='feature-item'>Standard support</li>
+                <li class='feature-item'>Cancel anytime</li>  
+            </ul>
+             <a href="https://khandirect.thrivecart.com/textdigit-professional">           
+            <button class='pricing-button'>Get Professional</button>
+            </a>
+        </div>
+        """, unsafe_allow_html=True)
+
+    with price_cols[2]:
+        st.markdown("""
+        <div class='price-card'>
+            <div class='popular-badge'>POPULAR</div>
+            <h3 class='price-header'>Premium</h3>
+            <div class='price-amount'>$99 per month</div>
+            <p><strong>TextDigit Premium+</strong></p>
+            <ul class='feature-list'>
+                <li class='feature-item'>7 day free trial</li>  
+                <li class='feature-item'>Basic plan</li> 
+                <li class='feature-item'>Professional plan</li>                 
+                <li class='feature-item'>5GB file strorage capacity</li>
+                <li class='feature-item'>10 column selection</li>  
+                <li class='feature-item'>Priority support</li>
+                <li class='feature-item'>Dedicated account manager</li>
+                <li class='feature-item'>Cancel anytime</li>  
+            </ul>
+             <a href="https://khandirect.thrivecart.com/textdigit-premium"> 
+            <button class='pricing-button'>Get Premium</button>
+            </a>
+        </div>
+        """, unsafe_allow_html=True)
+
+    st.markdown("""
+    <style>
+        .enterprise-box {
+            border-left: 4px dotted #1e88e5;
+            padding: 20px;
+            margin: 30px 0;
+            background: #f8f9fa;
+            border-radius: 8px;
+        }
+        .enterprise-title {
+            color: #1e88e5;
+            margin-bottom: 10px !important;
+        }
+        .contact-button {
+            background: #1e88e5;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            border: none;
+            margin-top: 10px;
+        }
+    </style>
+
+    <div class='enterprise-box'>
+        <h4 class='enterprise-title'>TextDigit Enterprise</h4>
+        <p>We provide bespoke services for clients with large data dump files to process.</p>
+        <p><strong>Includes:</strong></p>
+        <ul>
+            <li>Custom data processing pipelines</li>
+            <li>Complex regex tools</li>
+            <li>SQL querying</li>
+            <li>Very large data files handling</li>
+            <li>Dedicated engineering team</li>
+        </ul>
+        <a href="https://textdigit.com/enterprise-form"> 
+        <button class='contact-button'>Contact Sales</button>
+        </a>
+    </div>
+    """, unsafe_allow_html=True)
+
